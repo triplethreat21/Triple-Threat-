@@ -27,7 +27,7 @@ Video Game sales were a motivation for the team to choose this because statstics
 
 # Visualization
 
-![alt text](https://imgur.com/9u3ZOgI)
+https://github.com/triplethreat21/Triple-Threat-/issues/3#issue-533507806
 
 # What are the sub-problems and how did you solve each?
 What does video game consumption look like around the world?
