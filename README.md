@@ -26,9 +26,12 @@ Video games are constantly being played across the world, now more than ever bef
 Video Game sales were a motivation for the team to choose this because statstics show that Video game consumption of the Top 200 games are at a all time high   in North America, followed by Europe and Japan. Most  Action, Shooter and Platform genres are most popular across all regions, though certain regions further prefer particular genres instead.
 
 # Visualization
-
-https://github.com/triplethreat21/Triple-Threat-/issues/3#issue-533507806
-
+![gaj](https://user-images.githubusercontent.com/58538685/70268355-4c2bc600-176e-11ea-8742-728d27997331.png)
+![gg](https://user-images.githubusercontent.com/58538685/70268359-4e8e2000-176e-11ea-9e50-5daf462ab6a1.png)
+![ggg](https://user-images.githubusercontent.com/58538685/70268390-5a79e200-176e-11ea-9cbf-bb4f348cc3b4.png)
+![obs](https://user-images.githubusercontent.com/58538685/70268398-5ea5ff80-176e-11ea-9047-a8a3d94ea14f.png)
+![P11](https://user-images.githubusercontent.com/58538685/70268406-64034a00-176e-11ea-929d-209b2d09231a.png)
+![Picture12](https://user-images.githubusercontent.com/58538685/70268414-66fe3a80-176e-11ea-80c4-673ee27b0b02.png)
 # What are the sub-problems and how did you solve each?
 What does video game consumption look like around the world?
 Which Genres were popular over the years? How has gaming trends change over time? These sub-problems were solved by using  hypothesis testing, prediction (regression) analysis, classification,  time-series analysis, clustering, and verification. 
