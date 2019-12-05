@@ -6,6 +6,35 @@ output:
     df_print: paged
 ---
 ##Triple Threat: Video Game sales
+# Install required packages
+```{r}
+install.packages("tidyverse")
+```
+
+# Load libraries
+```{r}
+library(tidyverse)
+```
+
+```{r}
+# Use read.csv for strings to be factors
+library(readr)
+vgsales <- read_csv("vgsales.csv")
+data(vgsales)
+structure(vgsales)
+```
+```{r}
+
+ggplot(data=vgsales,mapping=aes(x=NAsales,y=year))+
+  geom_point(mapping = aes(color = Year))+
+  geom_smooth(method = "lm") +
+  
+  
+  labs(title = "North American Sales over the years",
+         subtitle = "Sales:1980-2020",
+         x = "Year")
+       
+```
 
 ##What is the problem?
 Video games are constantly being played across the world, now more than ever before. The reason we should care because it is causing video games to increase over the years this notebook will  analise the consumption of video games around the world and consider the trends in the popularity of genres across time.
