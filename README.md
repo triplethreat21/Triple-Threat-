@@ -1,50 +1,14 @@
 # Triple-Threat-providing information about video game sales across the globe.
 ---
-title: "R Notebook"
-output:
-  html_document:
-    df_print: paged
----
-##Triple Threat: Video Game sales
-# Install required packages
-```{r}
-install.packages("tidyverse")
-```
+# Video Game Sales Across the Globe
 
-# Load libraries
-```{r}
-library(tidyverse)
-```
+# Statistical Analysis on Video Game Sales using dataset from kaggle.com
 
-```{r}
-# Use read.csv for strings to be factors
-library(readr)
-vgsales <- read_csv("vgsales.csv")
-data(vgsales)
-structure(vgsales)
-```
-```{r}
-
-ggplot(data=vgsales,mapping=aes(x=NAsales,y=year))+
-  geom_point(mapping = aes(color = Year))+
-  geom_smooth(method = "lm") +
-  
-  
-  labs(title = "North American Sales over the years",
-         subtitle = "Sales:1980-2020",
-         x = "Year")
-       
-```
-
-##What is the problem?
-Video games are constantly being played across the world, now more than ever before. The reason we should care because it is causing video games to increase over the years this notebook will  analise the consumption of video games around the world and consider the trends in the popularity of genres across time.
-###Motivation for your team and why the class should care?
-Video Game sales were a motivation for the team to choose this because statstics show that Video game consumption of the Top 200 games are at a all time high   in North America, followed by Europe and Japan. Most  Action, Shooter and Platform genres are most popular across all regions, though certain regions further prefer particular genres instead.
-##What are you data sources? What was contained in your data?
 The dataset was compiled by Data Engineer Gregory Smith, who sourced his data from a network known as vgchartz.
-
 Vgchartz collects their data through calculated estimates, polls with video game retailers and video game communities, studying resale prices to determine popularity and consulting directly with developers and retail stores.The data sources obtained was from kaggle.com (vgsales.csv). The data obtained This dataset contains a list of video games with sales greater than 100,000 copies. 
 
+# Data
+(vgsales.csv)
 Rank - Ranking of overall sales
 Name - The games names
 Platform - Platform of the games release (i.e. PC,PS4, etc.)
@@ -56,21 +20,27 @@ EUROPE Sales - Sales in Europe (in millions)
 JAPAN Sales - Sales in Japan (in millions)
 Other Sales - Sales in the rest of the world (in millions)
 Global Sales - Total worldwide sales.
+# What is the problem?
+Video games are constantly being played across the world, now more than ever before. The reason we should care because it is causing video games to increase over the years this notebook will analyze the consumption of video games around the world and consider the trends in the popularity of genres across time.
+# Motivation for your team and why the class should care?
+Video Game sales were a motivation for the team to choose this because statstics show that Video game consumption of the Top 200 games are at a all time high   in North America, followed by Europe and Japan. Most  Action, Shooter and Platform genres are most popular across all regions, though certain regions further prefer particular genres instead.
 
+# Visualization
+[GitHub](http://github.com)
+ 
 
-##What are the sub-problems and how did you solve each?
+# What are the sub-problems and how did you solve each?
 What does video game consumption look like around the world?
 Which Genres were popular over the years? How has gaming trends change over time? These sub-problems were solved by using  hypothesis testing, prediction (regression) analysis, classification,  time-series analysis, clustering, and verification. 
 
+# #What is the error/accuracy of each model?
 
-###What is the error/accuracy of each model?
-```{r}
-##Model 1: Global sales vs. North America Sales
+# Model 1: Global sales vs. North America Sales
 fit <- lm(Global ~ NorthAm, data=vgsales)
 fit$coefficients
 
 ```
-##Model 2: Global sales vs. European sales
+# Model 2: Global sales vs. European sales
 ```{r}
 fit <- lm(Global ~ Europe, data=vgsales)
 fit$coefficients
