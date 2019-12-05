@@ -26,7 +26,7 @@ Video games are constantly being played across the world, now more than ever bef
 Video Game sales were a motivation for the team to choose this because statstics show that Video game consumption of the Top 200 games are at a all time high   in North America, followed by Europe and Japan. Most  Action, Shooter and Platform genres are most popular across all regions, though certain regions further prefer particular genres instead.
 
 # Visualization
-[GitHub](http://github.com)
+[GitHub](https://imgur.com/9u3ZOgI)
  
 
 # What are the sub-problems and how did you solve each?
