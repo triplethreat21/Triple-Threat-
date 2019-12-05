@@ -32,6 +32,10 @@ Video Game sales were a motivation for the team to choose this because statstics
 ![obs](https://user-images.githubusercontent.com/58538685/70268398-5ea5ff80-176e-11ea-9047-a8a3d94ea14f.png)
 ![P11](https://user-images.githubusercontent.com/58538685/70268406-64034a00-176e-11ea-929d-209b2d09231a.png)
 ![Picture12](https://user-images.githubusercontent.com/58538685/70268414-66fe3a80-176e-11ea-80c4-673ee27b0b02.png)
+[000003](https://user-images.githubusercontent.com/58538685/70260958-64481900-175f-11ea-9f7b-8c7c502aeb88.png)
+![000004 (1)](https://user-images.githubusercontent.com/58538685/70260967-6a3dfa00-175f-11ea-8c76-6247e3b4da7f.png)
+![000005](https://user-images.githubusercontent.com/58538685/70260971-6d38ea80-175f-11ea-98a8-a66dccc14628.png)
+
 # What are the sub-problems and how did you solve each?
 What does video game consumption look like around the world?
 Which Genres were popular over the years? How has gaming trends change over time? These sub-problems were solved by using  hypothesis testing, prediction (regression) analysis, classification,  time-series analysis, clustering, and verification. 
